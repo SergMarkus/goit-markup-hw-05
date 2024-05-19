@@ -93,7 +93,7 @@ button {
   color: var(--slate);
 }
 
-/* Header */
+/* Header- start*/
 .page-header {
   background-color: var(--white);
   border-bottom: 1px solid var(--cornflower);
@@ -179,7 +179,6 @@ button {
 .menu-nav .link:hover::after,
 .menu-nav .link:focus::after {
   background-color: var(--ocean);
-
 }
 
 /* header address */
@@ -213,8 +212,9 @@ button {
   list-style-type: none;
 }
 
+/* Header- end*/
 
-/* Section Hero */
+/* Section Hero - start */
 .sec-hero {
   background: var(--navy-blue);
   max-width: 1440px;
@@ -272,13 +272,9 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Feature */
-/*.sec-feature .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*/
+/* Section Hero - end */
 
+/* Section Feature - start */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -313,13 +309,13 @@ button {
   justify-content: center;
 }
 
+/* Section Feature - end */
 
-/* Our Team */
+
+/* Our Team - start */
 .sec-team {
   background: var(--cloud);
 }
-
-.sec-team .container {}
 
 .team-card {
   background: var(--white);
@@ -372,7 +368,9 @@ button {
   fill: var(--cloud);
 }
 
-/* Portfolio */
+/* Our Team - end */
+
+/* Portfolio - start */
 .project-cards.cards {
   flex-wrap: wrap;
   row-gap: 48px;
@@ -422,7 +420,9 @@ button {
   padding: 32px 16px;
 }
 
-/* Footer */
+/* Portfolio -  */
+
+/* Footer - start */
 .footer {
   background: var(--navy-blue);
   padding-top: 100px;
@@ -500,6 +500,8 @@ button {
   background-color: var(--green);
 }
 
+/* Footer - end */
+
 /* Modal */
 .modal-overlay {
   position: fixed;
@@ -562,8 +564,6 @@ button {
   border: none;
 }
 
-.modal-icon-close {}
-
 .modal-inputs-group {
   border: none;
   padding: 0;
@@ -622,7 +622,6 @@ button {
 .form-input:focus,
 .modal-textarea:focus {
   border-color: var(--iris);
-
 }
 
 .modal-svg {
@@ -644,7 +643,6 @@ button {
 
 .modal-form-textarea {
   margin-bottom: 16px;
-
 }
 
 .modal-textarea {
@@ -687,12 +685,7 @@ button {
   justify-content: left;
   align-items: center;
   margin-bottom: 24px;
-
 }
-
-.modal-checkbox-input {}
-
-.visually-hidden {}
 
 .modal-checkbox-label {
   font-weight: 400;
