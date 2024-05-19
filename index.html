@@ -681,6 +681,7 @@
             <label class="subscribe-form-label"
               ><input
                 class="footer-mail-input"
+                name="mail-input"
                 type="email"
                 placeholder="E-mail"
             /></label>
@@ -695,8 +696,8 @@
       </div>
     </footer>
 
-    <!-- MODAL OVERLAY -- add "is-open" to class="modal-overlay"-->
-    <div class="modal-overlay is-open">
+    <!-- MODAL OVERLAY -- add "is-open"-->
+    <div class="modal-overlay">
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-icon-close" width="8" height="8">
@@ -765,13 +766,13 @@
         <div class="modal-form-checkbox">
           <input
             class="modal-checkbox-input visually-hidden"
-            iid="user-privacy"
+            id="user-privacy"
             type="checkbox"
-            name="user-privacy"  
-            value="true"   
+            name="user-privacy"
+            value="true"
           />
 
-          <label class="modal-checkbox-label" for=""user-privacy">
+          <label class="modal-checkbox-label" for="user-privacy">
             <span class="checkbox-style">
               <svg class="modal-checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
