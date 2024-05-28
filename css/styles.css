@@ -16,13 +16,13 @@
   --second-family: "Raleway", sans-serif;
 }
 
+/* #region Basic styles */
 body {
   font-family: var(--font-family);
   color: var(--slate);
   background-color: var(--white);
 }
 
-/* common styles */
 h1,
 h2,
 h3,
@@ -45,6 +45,9 @@ img {
   display: block;
 }
 
+/* #endregion Basic styles */
+
+/* #region Common styles */
 h2 {
   font-size: 36px;
   line-height: 1.11;
@@ -62,14 +65,13 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-
 }
 
 button {
   cursor: pointer;
 }
 
-/* common styles for sections, cards (li), text */
+/* for sections, cards (li), text */
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -93,7 +95,29 @@ button {
   color: var(--slate);
 }
 
-/* Header- start*/
+/* for logo */
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+
+.logo-black {
+  color: var(--navy-blue);
+}
+
+.logo-white {
+  color: var(--cloud);
+}
+
+/* #endregion Common styles*/
+
+/* #region Header*/
 .page-header {
   background-color: var(--white);
   border-bottom: 1px solid var(--cornflower);
@@ -113,21 +137,6 @@ button {
 .menu-nav {
   display: flex;
   gap: 40px;
-}
-
-.logo {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-  text-decoration: none;
-}
-
-.logo-black {
-  color: var(--navy-blue);
 }
 
 .sec-nav .logo {
@@ -153,12 +162,10 @@ button {
 
 .link.current {
   color: var(--ocean);
-
 }
 
 .link {
   text-decoration: none;
-
 }
 
 .menu-nav .current::after {
@@ -212,9 +219,9 @@ button {
   list-style-type: none;
 }
 
-/* Header- end*/
+/* #endregion Header*/
 
-/* Section Hero - start */
+/* #region Hero */
 .sec-hero {
   background: var(--navy-blue);
   max-width: 1440px;
@@ -272,9 +279,9 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Section Hero - end */
+/* #endregion Hero */
 
-/* Section Feature - start */
+/* #region Feature */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -309,10 +316,9 @@ button {
   justify-content: center;
 }
 
-/* Section Feature - end */
+/* #endregion Feature */
 
-
-/* Our Team - start */
+/* #region Our Team */
 .sec-team {
   background: var(--cloud);
 }
@@ -368,9 +374,9 @@ button {
   fill: var(--cloud);
 }
 
-/* Our Team - end */
+/* #endregion Our Team */
 
-/* Portfolio - start */
+/* #region Portfolio */
 .project-cards.cards {
   flex-wrap: wrap;
   row-gap: 48px;
@@ -420,9 +426,9 @@ button {
   padding: 32px 16px;
 }
 
-/* Portfolio -  */
+/* #endregion Portfolio  */
 
-/* Footer - start */
+/* #region Footer */
 .footer {
   background: var(--navy-blue);
   padding-top: 100px;
@@ -438,10 +444,6 @@ button {
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
-}
-
-.logo-white {
-  color: var(--cloud);
 }
 
 .footer-text {
@@ -570,9 +572,9 @@ button {
   background-color: var(--ocean)
 }
 
-/* Footer - end */
+/* #endregion Footer */
 
-/* Modal */
+/* #region Modal */
 .modal-overlay {
   position: fixed;
   width: 100%;
@@ -829,3 +831,5 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--ocean);
 }
+
+/* #endregion Modal */
